@@ -22,7 +22,7 @@ One of the common pitfalls of this is turning data infrastructure platform into 
 
 Back to why cloud is perfect fit for this? It's because things on cloud are just logical distribution. It's easy to take a S3 bucket from one domain team and add it to your central infrastructure layer. Note that it's still centralized, in the sense of management only.
 
-The infrastructure is also still centralized but we can provide Spark cluster without configuring & managing it. The cloud is even better when you're not happy with the offering from data infrastructure as platform team. You can just go spun up a EMR cluster for processing yourselves. (Only if you must because of interopability, etc..)
+The infrastructure is also still centralized but we can provide Spark cluster for domain teams. Domain teams do not have to worry about configuring & managing it now. The cloud is even better when you're not happy with the offering from data infrastructure as platform team. You can just go spun up a EMR cluster for processing yourselves. (Only if you must because of interopability, etc..)
 
 ## The tech stack 
 
